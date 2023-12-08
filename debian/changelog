@@ -1,5 +1,67 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-gopkg-eapache-queue.v1 (1.1.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
+  * Add github.com/eapache/queue to Go-Import-Path
+  * Update Standards-Version to 4.6.2 (no changes)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Shengjing Zhu <zhsj@debian.org>  Sun, 01 Jan 2023 16:57:18 +0800
+
+golang-gopkg-eapache-queue.v1 (1.1.0-1) unstable; urgency=medium
+
+  * New upstream version 1.1.0
+  * Update debian/watch to one generated with the latest dh-make-golang
+  * debian/gbp.conf: Set debian-branch to debian/sid for DEP-14 conformance
+  * Apply "cme fix dpkg" fixes
+    - Reorder fields in debian/control
+    - Update debhelper-compat to (= 13)
+    - Bump Standards-Version to 4.6.0 (no change)
+  * Update Maintainer email address to team+pkg-go@tracker.debian.org
+  * Add myself to the list of Uploaders
+  * Change Section from devel to golang
+  * Replace build-dependency on golang-go with golang-any
+  * Add "Rules-Requires-Root: no" to debian/control
+
+ -- Anthony Fok <foka@debian.org>  Wed, 20 Oct 2021 01:07:17 -0600
+
+golang-gopkg-eapache-queue.v1 (1.0.2-5) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Team upload.
+  * Removed myself from uploaders.
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 15 Sep 2019 19:13:07 -0400
+
+golang-gopkg-eapache-queue.v1 (1.0.2-4) unstable; urgency=medium
+
+  * Team upload.
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 05 Feb 2018 23:10:12 -0500
+
+golang-gopkg-eapache-queue.v1 (1.0.2-3) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 15:38:08 -0500
+
+golang-gopkg-eapache-queue.v1 (1.0.2-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL.
+
+  [ Alexandre Viau ]
+  * Use XS-Go-Import-Path.
+  * Change my email to @debian.org.
+  * Move to salsa.debian.org.
+  * Fix priority-extra-is-replaced-by-priority-optional.
+
+ -- Alexandre Viau <aviau@debian.org>  Fri, 29 Dec 2017 22:08:42 -0500
+
+golang-gopkg-eapache-queue.v1 (1.0.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #794346)
+
+ -- Alexandre Viau <alexandre@alexandreviau.net>  Sat, 01 Aug 2015 17:21:48 -0400
